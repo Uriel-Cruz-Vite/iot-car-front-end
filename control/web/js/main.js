@@ -10,7 +10,7 @@ function callApi(estatus) {
 
   axios
     .get(
-      "https://18.171.206.253/iot-car-control/back-end/apis/setRegistro.php?valorEstatus=" + estatus
+      "https://13.40.44.99/iot-car-control/back-end/apis/setRegistro.php?valorEstatus=" + estatus
     )
     .then(function (response) {
       // manejar respuesta exitosa
